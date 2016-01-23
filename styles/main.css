@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.cell-50 {
+  float: left;
+  width: 50%;
+}
+
+textarea {
+  width: 95%;
+  padding: 3px;
+}
