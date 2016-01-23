@@ -2,6 +2,8 @@
 
 FreeCodeCamp project based on [React](https://facebook.github.io/react/)
 
+[Demo](http://codepen.io/VadimDez/full/pgadjj/)
+
 ## Build
 
 Install dependencies first
