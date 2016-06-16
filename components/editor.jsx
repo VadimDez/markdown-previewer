@@ -58,7 +58,7 @@ class Editor extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="editor_component">
         <div className="cell-50"><textarea name="editor" id="" cols="30" rows="50" onChange={this.onChange} value={ this.state.content } /></div>
         <div className="cell-50" dangerouslySetInnerHTML={{__html: this.state.markdown}}></div>
       </div>

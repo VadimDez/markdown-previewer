@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 9000",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors --port 9000",
     "build": "./node_modules/webpack/bin/webpack.js"
   },
   "repository": {
@@ -32,7 +32,7 @@
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.11",
+    "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
 }
