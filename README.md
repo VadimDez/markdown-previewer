@@ -2,7 +2,7 @@
 
 FreeCodeCamp project based on [React](https://facebook.github.io/react/)
 
-[Demo](http://codepen.io/VadimDez/full/pgadjj/)
+[Demo page](http://codepen.io/VadimDez/full/pgadjj/)
 
 ## Build
 
@@ -21,3 +21,7 @@ then build
 ## Run
 
 Open index.html in browser
+
+### License
+
+[MIT](https://tldrlegal.com/license/mit-license) © [Vadym Yatsyuk](https://github.com/vadimdez)
