@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import marked from './../node_modules/marked/marked.min';
 
@@ -59,7 +58,7 @@ class Editor extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="editor_component">
         <div className="cell-50"><textarea name="editor" id="" cols="30" rows="50" onChange={this.onChange} value={ this.state.content } /></div>
         <div className="cell-50" dangerouslySetInnerHTML={{__html: this.state.markdown}}></div>
       </div>
@@ -67,4 +66,4 @@ class Editor extends React.Component {
   }
 }
 
-ReactDOM.render(<Editor/>, document.getElementById('editor'));
+export default Editor;
