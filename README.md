@@ -1,8 +1,8 @@
-#Markdown previewer
+# Markdown previewer
 
 FreeCodeCamp project based on [React](https://facebook.github.io/react/)
 
-[Demo page](http://codepen.io/VadimDez/full/pgadjj/)
+[Demo page](http://vadimdez.github.io/markdown-previewer/)
 
 ## Build
 

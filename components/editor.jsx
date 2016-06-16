@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import marked from './../node_modules/marked/marked.min';
+
 class Editor extends React.Component {
   constructor() {
     super();
